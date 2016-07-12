@@ -1,6 +1,7 @@
-from subcommands import TransferDone, clamScanOneShot
-from jobhandler import JobHandler
 import os
+
+from engine.subcommands import TransferDone, clamScanOneShot
+from engine.jobhandler import JobHandler
 import time
 
 
